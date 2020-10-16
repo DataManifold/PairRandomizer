@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		B60CE3042539F39F00D53B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE3032539F39F00D53B3B /* AppDelegate.swift */; };
 		B60CE3062539F39F00D53B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE3052539F39F00D53B3B /* SceneDelegate.swift */; };
-		B60CE3082539F39F00D53B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE3072539F39F00D53B3B /* ViewController.swift */; };
 		B60CE30B2539F39F00D53B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CE3092539F39F00D53B3B /* Main.storyboard */; };
 		B60CE30D2539F3A500D53B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60CE30C2539F3A500D53B3B /* Assets.xcassets */; };
 		B60CE3102539F3A500D53B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CE30E2539F3A500D53B3B /* LaunchScreen.storyboard */; };
-		B60CE3232539F62100D53B3B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE3222539F62100D53B3B /* Person.swift */; };
 		B60CE3262539F64B00D53B3B /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE3252539F64B00D53B3B /* PersonController.swift */; };
+		B60CE32A253A01EF00D53B3B /* PairRandomizer36.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B60CE328253A01EF00D53B3B /* PairRandomizer36.xcdatamodeld */; };
+		B60CE32D253A053100D53B3B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE32C253A053100D53B3B /* CoreDataStack.swift */; };
+		B60CE330253A065C00D53B3B /* PairRandomizer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE32F253A065C00D53B3B /* PairRandomizer+Convenience.swift */; };
+		B60CE334253A10F600D53B3B /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CE333253A10F600D53B3B /* PersonListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B60CE3002539F39F00D53B3B /* PairRandomizer36.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairRandomizer36.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60CE3032539F39F00D53B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B60CE3052539F39F00D53B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B60CE3072539F39F00D53B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B60CE30A2539F39F00D53B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B60CE30C2539F3A500D53B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60CE30F2539F3A500D53B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60CE3112539F3A500D53B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B60CE3222539F62100D53B3B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B60CE3252539F64B00D53B3B /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		B60CE329253A01EF00D53B3B /* PairRandomizer36.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PairRandomizer36.xcdatamodel; sourceTree = "<group>"; };
+		B60CE32C253A053100D53B3B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B60CE32F253A065C00D53B3B /* PairRandomizer+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PairRandomizer+Convenience.swift"; sourceTree = "<group>"; };
+		B60CE333253A10F600D53B3B /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 				B60CE31E2539F4B200D53B3B /* Views */,
 				B60CE31B2539F47800D53B3B /* Controllers */,
 				B60CE3182539F3DD00D53B3B /* Resources */,
+				B60CE328253A01EF00D53B3B /* PairRandomizer36.xcdatamodeld */,
 			);
 			path = PairRandomizer36;
 			sourceTree = "<group>";
@@ -92,7 +97,7 @@
 		B60CE31C2539F48100D53B3B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B60CE3072539F39F00D53B3B /* ViewController.swift */,
+				B60CE333253A10F600D53B3B /* PersonListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -116,7 +121,8 @@
 		B60CE31F2539F4C600D53B3B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B60CE3222539F62100D53B3B /* Person.swift */,
+				B60CE32C253A053100D53B3B /* CoreDataStack.swift */,
+				B60CE32F253A065C00D53B3B /* PairRandomizer+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,11 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60CE3082539F39F00D53B3B /* ViewController.swift in Sources */,
+				B60CE32D253A053100D53B3B /* CoreDataStack.swift in Sources */,
 				B60CE3042539F39F00D53B3B /* AppDelegate.swift in Sources */,
-				B60CE3232539F62100D53B3B /* Person.swift in Sources */,
+				B60CE330253A065C00D53B3B /* PairRandomizer+Convenience.swift in Sources */,
+				B60CE334253A10F600D53B3B /* PersonListTableViewController.swift in Sources */,
 				B60CE3262539F64B00D53B3B /* PersonController.swift in Sources */,
 				B60CE3062539F39F00D53B3B /* SceneDelegate.swift in Sources */,
+				B60CE32A253A01EF00D53B3B /* PairRandomizer36.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B60CE328253A01EF00D53B3B /* PairRandomizer36.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B60CE329253A01EF00D53B3B /* PairRandomizer36.xcdatamodel */,
+			);
+			currentVersion = B60CE329253A01EF00D53B3B /* PairRandomizer36.xcdatamodel */;
+			path = PairRandomizer36.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B60CE2F82539F39F00D53B3B /* Project object */;
 }
